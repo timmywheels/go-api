@@ -5,13 +5,7 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	"net/http"
 	"strconv"
-)
-
-type (
-	user struct {
-		ID   int    `json:"id"`
-		Name string `json:"name"`
-	}
+	"timwheeler.com/go-api/pkg/domain"
 )
 
 var (
